@@ -90,14 +90,14 @@
 
                         
                         <li>
-                            <a href="/archives/">Archives</a>
+                            <a href="/about/">About</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/archives/">Archives</a>
                         </li>
                         
                     
@@ -172,11 +172,7 @@
                 
                     <a href="#Collection" title="Collection" rel="1">Collection</a>
                 
-                    <a href="#OS" title="OS" rel="0">OS</a>
-                
-                    <a href="#Unix" title="Unix" rel="0">Unix</a>
-                
-                    <a href="#Linux" title="Linux" rel="0">Linux</a>
+                    <a href="#Code" title="Code" rel="1">Code</a>
                 
             </div>
 
@@ -206,23 +202,24 @@
             </div>
             
             <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="OS">
-                    <span class="tag-text">OS</span>
+                <span class="fa fa-tag listing-seperator" id="Code">
+                    <span class="tag-text">Code</span>
                 </span>
                 
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Unix">
-                    <span class="tag-text">Unix</span>
-                </span>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Linux">
-                    <span class="tag-text">Linux</span>
-                </span>
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/articles/weekly-report-git.html">
+                        <h2 class="post-title">
+                            基于NodeGit的周报生成工具
+                        </h2>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
                 
             </div>
             
